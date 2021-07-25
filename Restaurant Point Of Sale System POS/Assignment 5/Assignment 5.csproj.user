@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Pages\All.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Cigarette.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Coffee.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Fruit.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Icecream.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Juice.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Pizza.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SoftDrink.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Tea.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\All.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Burgers.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Cigarette.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Coffee.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Fruit.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Icecream.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Juice.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Pizza.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SoftDrink.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Tea.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Tile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

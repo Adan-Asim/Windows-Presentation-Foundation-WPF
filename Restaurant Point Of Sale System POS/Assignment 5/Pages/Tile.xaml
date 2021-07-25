@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="Assignment_5.Pages.Tile"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Assignment_5.Pages"
+             xmlns:include ="clr-namespace:Assignment_5"
+             mc:Ignorable="d" 
+             d:DesignHeight="140" d:DesignWidth="238">
+
+    <Grid  MouseDown="Clicked" >
+        <Border BorderThickness="1" BorderBrush="Black" Grid.Column="0" Grid.Row="0" Margin="10" Background="Lavender" CornerRadius="20">
+            <WrapPanel>
+                <Image Name ="img"  Source="{Binding Path=image}" Margin="2,4,0,0" Stretch="Uniform" Width="80" Height="80"/>
+                <StackPanel Margin="3,0,0,0">
+                    <WrapPanel>
+                        <TextBlock Name ="title"  Text="{Binding Path= title}" Margin="2,10,5,5" TextWrapping="Wrap" FontWeight="Bold" FontSize="13"/>
+                    </WrapPanel>
+                    <WrapPanel Margin="3">
+                        <TextBlock Text="Barcode: " TextWrapping="Wrap" Margin="0" FontWeight="DemiBold" FontSize="13"/>
+                        <TextBlock Name ="Barcode"  Text="{Binding Path= barcode}" TextWrapping="Wrap" Margin="0" FontWeight="Normal" FontSize="13"/>
+                    </WrapPanel>
+                    <WrapPanel Margin="3">
+                        <TextBlock Text="Price: " TextWrapping="Wrap" Margin="0" FontWeight="DemiBold" FontSize="13"/>
+                        <TextBlock Name ="Price"  Text="{Binding Path= price}" TextWrapping="Wrap" Margin="0" FontWeight="Normal" FontSize="13"/>
+                    </WrapPanel>
+                    <WrapPanel Margin="3">
+                        <TextBlock Text="Quantity: " TextWrapping="Wrap" Margin="0" FontWeight="DemiBold" FontSize="13"/>
+                        <TextBlock Name ="Quantity"  Text="{Binding Path= quantity}" TextWrapping="Wrap" Margin="0" FontWeight="Normal" FontSize="13"/>
+                    </WrapPanel>
+                </StackPanel>
+            </WrapPanel>
+        </Border>
+    </Grid>
+</UserControl>

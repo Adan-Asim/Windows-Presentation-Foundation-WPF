@@ -1,0 +1,95 @@
+﻿<Window x:Class="Assignment_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assignment_5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="740" Width="1470" 
+        WindowState="Maximized"
+        ResizeMode="CanMinimize">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource = "images\bg2.jpg" Stretch="Fill"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Border CornerRadius="2" Grid.ColumnSpan="2"  HorizontalAlignment="Left" Margin="110,40,0,0" VerticalAlignment="Top" BorderThickness="8" BorderBrush="White" Padding="5">
+            <WrapPanel>
+                <Label Content="POINT OF SALE SYSTEM" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontWeight="ExtraBold" FontSize ="25" Grid.ColumnSpan="2"/>
+                <Label Content="Date Time" Grid.Column="1" HorizontalAlignment="Left" Margin="380,10,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="SemiBold" FontSize ="20" Name="datetime"/>
+                <Label Content="User: Admin" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="-0.105,0.117" Foreground="White" FontWeight="DemiBold" FontSize ="20" Margin="30,10,0,0"/>
+            </WrapPanel>
+        </Border>
+
+        <Grid Grid.Row="0" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBox Name="barcode" Text="Items Choosed" Margin="20,150,20,180" Padding="2" GotFocus="barClear" KeyDown="check"/>
+
+            <DataGrid Margin=" 20,180,20,-100" Name="dg" AutoGenerateColumns="False" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Path= title}"  Header="Item" Width="2*"/>
+                    <DataGridTextColumn Binding="{Binding Path= price}" Header="Price" Width="*"/>
+                    <DataGridTextColumn Binding="{Binding Path= quantity, UpdateSourceTrigger=PropertyChanged}" Header="Qty" Width="*"/>
+                    <DataGridTextColumn Binding="{Binding Path= total}" Header="Total" Width="*"/>
+                    <DataGridTextColumn Binding="{Binding Path= tax}" Header="Tax" Width="*"/>
+
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <Button Content="Payment" Padding="5" HorizontalAlignment="Left" Margin="229,310,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="15" Click="Payment"/>
+            <Button Content="Suspend" Padding="5" HorizontalAlignment="Left" Margin="368,310,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize ="15" Click="cleanAll"/>
+
+
+            <Label Content="Total (without Tax)" HorizontalAlignment="Left" Margin="74,150,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="18" FontWeight="DemiBold"/>
+            <Label Content="00.00" Name="T1" HorizontalAlignment="Left" Margin="540,150,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="18" FontWeight="DemiBold"/>
+
+            <Label Content="Discount" HorizontalAlignment="Left" Margin="74,175,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="18" FontWeight="DemiBold"/>
+            <Label Content="00.00" Name="T2" HorizontalAlignment="Left" Margin="540,175,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="18" FontWeight="DemiBold"/>
+
+            <Label Content="Tax (5%)" HorizontalAlignment="Left" Margin="74,200,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="18" FontWeight="DemiBold"/>
+            <Label Content="00.00" Name="T3" HorizontalAlignment="Left" Margin="540,200,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="18" FontWeight="DemiBold"/>
+
+            <Separator  Margin="74,180,90,70" Grid.Row="1"/>
+            <Label Content="Total Payable" HorizontalAlignment="Left" Margin="74,238,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="18" FontWeight="DemiBold"/>
+            <Label Content="00.00" Name="T4" HorizontalAlignment="Left" Margin="540,238,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="18" FontWeight="DemiBold"/>
+
+            <Label Content="Total Item Types" HorizontalAlignment="Left" Margin="74,270,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="18" FontWeight="DemiBold"/>
+            <Label Content="00.00" Name="T5" HorizontalAlignment="Left" Margin="540,270,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="18" FontWeight="DemiBold"/>
+            <Button Content="Delete Selected Row" HorizontalAlignment="Left" Margin="270,110,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="13" Padding="3" Click="deleteRow"/>
+        </Grid>
+
+
+        <TextBox Name="ItemTypeSearch" Text="Catalogue" Margin="5,150,535,568" Padding="2" Grid.Column="2" GotFocus="ItemTypeClear"/>
+        <DockPanel Grid.Column="1" Margin="5,180,535,15">
+            <ScrollViewer DockPanel.Dock="Left" >
+                <StackPanel Grid.Column="2" Background="Lavender">
+                    <Button Content="All" Margin="15" Background="Navy"  FontSize="16" Padding="8" Foreground="White" Click="All"/>
+                    <Button Content="SoftDrink" Margin="15" Background="Navy"  FontSize="16" Padding="8" Foreground="White" Click="Softdrink"/>
+                    <Button Content="Pizza" Margin="15" Background="Navy"  FontSize="16" Padding="8" Foreground="White" Click="Pizza"/>
+                    <Button Content="Burger" Margin="15" Background="Navy"  FontSize="16" Padding="8" Foreground="White" Click="Burger"/>
+                    <Button Content="Fruit" Margin="15" Background="Navy"  FontSize="16" Padding="8" Foreground="White" Click="Fruit"/>
+                    <Button Content="Coffee" Margin="15" Background="Navy"  FontSize="16" Padding="8" Foreground="White" Click="Coffee"/>
+                    <Button Content="Tea" Margin="15" Background="Navy"  FontSize="16" Padding="8" Foreground="White" Click="Tea"/>
+                    <Button Content="IceCream" Margin="15" Background="Navy"  FontSize="16" Padding="8" Foreground="White" Click="Icecream"/>
+                    <Button Content="Juice" Margin="15" Background="Navy"  FontSize="16" Padding="8" Foreground="White" Click="Juice"/>
+                    <Button Content="Cigarette" Margin="15" Background="Navy"  FontSize="16" Padding="8" Foreground="White" Click="Cigarette"/>
+                </StackPanel>
+            </ScrollViewer>
+        </DockPanel>
+
+        <WrapPanel Grid.Column="1" Margin="175,150,200,530">
+            <Button Content="Items" Grid.Column="1" Padding="2" FontSize="15" Name ="b1"/>
+            <Button Content="Item List" Margin="10,0,0,0" Padding="2" FontSize="15" Name ="b2"/>
+        </WrapPanel>
+
+        <Frame Name ="f1" Grid.Column="1" Margin="175,180,35,10" Background="Transparent" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>

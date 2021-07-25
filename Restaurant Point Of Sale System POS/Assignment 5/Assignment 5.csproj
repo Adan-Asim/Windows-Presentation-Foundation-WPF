@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Assignment_5</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="bg.jpg" />
+    <None Remove="cokacola.jpeg" />
+    <None Remove="images\apple-juice.png" />
+    <None Remove="images\apple.jpg" />
+    <None Remove="images\banana.png" />
+    <None Remove="images\bg2.jpg" />
+    <None Remove="images\Cappuccino.png" />
+    <None Remove="images\Caramel.jpg" />
+    <None Remove="images\Cheese.png" />
+    <None Remove="images\Chicken-Tikka.png" />
+    <None Remove="images\Chocolate.png" />
+    <None Remove="images\cigarette.png" />
+    <None Remove="images\cokacola.png" />
+    <None Remove="images\dummy.png" />
+    <None Remove="images\Fajita.png" />
+    <None Remove="images\Grill.png" />
+    <None Remove="images\Mango.jpg" />
+    <None Remove="images\mango.png" />
+    <None Remove="images\pepperoni.png" />
+    <None Remove="images\sprite.jpeg" />
+    <None Remove="images\tea.png" />
+    <None Remove="images\Vanilla.png" />
+    <None Remove="images\vegetable.png" />
+    <None Remove="images\Zinger.jpg" />
+    <None Remove="images\Zinger.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="2.1.2" />
+    <PackageReference Include="Spire.PDF" Version="7.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\apple-juice.png" />
+    <Resource Include="images\apple.jpg" />
+    <Resource Include="images\banana.png" />
+    <Resource Include="images\bg2.jpg" />
+    <Resource Include="images\Cappuccino.png" />
+    <Resource Include="images\Caramel.jpg" />
+    <Resource Include="images\Cheese.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\bg.jpg" />
+    <Resource Include="images\Chicken-Tikka.png" />
+    <Resource Include="images\Chocolate.png" />
+    <Resource Include="images\cigarette.png" />
+    <Resource Include="images\cokacola.png" />
+    <Resource Include="images\dummy.png" />
+    <Resource Include="images\Fajita.png" />
+    <Resource Include="images\Grill.png" />
+    <Resource Include="images\Mango.jpg" />
+    <Resource Include="images\mango.png" />
+    <Resource Include="images\pepperoni.png" />
+    <Resource Include="images\sprite.jpeg" />
+    <Resource Include="images\tea.png" />
+    <Resource Include="images\Vanilla.png" />
+    <Resource Include="images\vegetable.png" />
+    <Resource Include="images\Zinger.png" />
+  </ItemGroup>
+
+</Project>
