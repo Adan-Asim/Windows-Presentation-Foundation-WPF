@@ -1,0 +1,65 @@
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\Assignment 5.exe
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\Assignment 5.deps.json
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\Assignment 5.runtimeconfig.json
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\Assignment 5.runtimeconfig.dev.json
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\Assignment 5.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\Assignment 5.pdb
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Assignment 5_MarkupCompile.cache
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Assignment 5_MarkupCompile.lref
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Assignment 5.g.resources
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Assignment 5.AssemblyInfoInputs.cache
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Assignment 5.AssemblyInfo.cs
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Assignment 5.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Assignment 5.pdb
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Assignment 5.csprojAssemblyReference.cache
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\Tile.g.cs
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\Tile.baml
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\Burgers.g.cs
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\Burgers.baml
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\All.g.cs
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\All.baml
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\Cigarette.g.cs
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\Coffee.g.cs
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\Fruit.g.cs
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\Icecream.g.cs
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\Juice.g.cs
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\Pizza.g.cs
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\SoftDrink.g.cs
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\Tea.g.cs
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\Cigarette.baml
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\Coffee.baml
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\Fruit.baml
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\Icecream.baml
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\Juice.baml
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\Pizza.baml
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\SoftDrink.baml
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Pages\Tea.baml
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\SkiaSharp.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\Spire.License.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\Spire.Pdf.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\runtimes\tizen-armel\native\libSkiaSharp.so
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\runtimes\tizen-x86\native\libSkiaSharp.so
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ADAN ASIM\Desktop\ITC Assignment\EAD\Assignments\Assignment 5\Assignment 5\obj\Debug\netcoreapp3.1\Assignment 5.csproj.CopyComplete
